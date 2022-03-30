@@ -23,7 +23,7 @@ printf "127.0.0.1 localhost/n::1 localhost/n127.0.0.1 blackbox.localdomain black
 echo "blackbox" >> /etc/hostname
 
 #6. Install packages
-pacman -S --no-confirm neovim xorg-server kitty docker kubeadm starship helm feh ssh wget
+pacman -S --noconfirm neovim xorg-server kitty docker kubeadm starship helm feh ssh wget
 
 #7. Make Directories
 mkdir -p /home/${UN}/Downloads /home/${UN}/Programs /home/${UN}/.ssh/ /home/${UN}/.zsh/ /home/${UN}/suckless/ 
