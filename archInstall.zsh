@@ -58,9 +58,6 @@ gc "https://github.com/Nokodoko/.config.git"
 cd /home/${UN}/.ssh
 ssh-keygen -q -t rsa -N '' 
 
-#15 .xinitrc
-cd ~
-
 #16. Install font
 cd /home/${UN}/Downloads/
 wget https://rubjo.github.io/victor-mono/VictorMonoall.zip
