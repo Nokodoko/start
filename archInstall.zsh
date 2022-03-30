@@ -27,30 +27,30 @@ pacman -S --noconfirm neovim xorg-server kitty docker kubeadm starship helm feh 
 #mkdir -p /home/${UN}/Downloads /home/${UN}/Programs /home/${UN}/.ssh/ /home/${UN}/.zsh/ /home/${UN}/suckless/ 
 
 #8. Retrieve Configs 
-alias gc='git clone'
+alias git clone='git clone'
 
 #9. Install neovim
 #cd /home/${UN}/Programs/
-gc "https://github.com/Nokodoko/nvim.git"
+git clone "https://github.com/Nokodoko/nvim.git"
 cd nvim/ && make install
 
 #10. Install zsh-tooling
 #cd /home/${UN}/.zsh/
-gc "https://github.com/Nokodoko/tooling.git"
+git clone "https://github.com/Nokodoko/tooling.git"
 
 #11. Install dwm
 #cd /home/n0ko/suckless
-gc "https://github.com/Nokodoko/n0kodwm.git"
+git clone "https://github.com/Nokodoko/n0kodwm.git"
 cd n0kodwm/ && make install
 
 #12. Install slstatus
 #cd /home/${UN}/suckless
-gc "https://github.com/Nokodoko/slstatus.git"
+git clone "https://github.com/Nokodoko/slstatus.git"
 cd slstatus/ && make install
 
 #13. Config files
 #cd ~
-gc "https://github.com/Nokodoko/.config.git"
+git clone "https://github.com/Nokodoko/.config.git"
 
 #14. Make rsa-keys 
 #cd /home/${UN}/.ssh
